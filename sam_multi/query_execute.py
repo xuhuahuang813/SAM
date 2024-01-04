@@ -19,8 +19,9 @@ args = parser.parse_args()
 conn = psycopg2.connect(
     host="localhost",
     database="db_gen_uaeq_400_test_100",
-    user="jingyi",
-    port="5444"
+    user="postgres",
+    password='postgres',
+    port="5432"
 )
 
 cur = conn.cursor()

@@ -7,7 +7,6 @@ dependencies:
   - numpy=1.18.4
   - python=3.7.7
   - pytorch==1.4.0
-  - torchvision==0.5.0
   - psycopg2=2.8.4=py37h1ba5d50_0
   - pip
   - pip:
@@ -23,3 +22,4 @@ dependencies:
     - pyspark==2.4.3
     - wandb==0.8.36
     - pyarrow
+    - torchvision==0.5.0
