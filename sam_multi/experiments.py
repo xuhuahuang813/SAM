@@ -390,7 +390,7 @@ EXPERIMENT_CONFIGS = {
         'num_eval_queries_per_iteration': 1000,
         # 10M tuples total.
         'max_steps': tune.grid_search([5000]),
-        'epochs': 50,
+        'epochs': 5,
         # Evaluate after every 1M tuples trained.
         'epochs_per_iteration': 1,
         'loader_workers': 4,
@@ -414,8 +414,8 @@ EXPERIMENT_CONFIGS = {
         'test_queries': 0,
         'train_virtual_cols': True,
         'run_uaeq': True,
-        'save_result_dir': "test_results/preds/",
-        'save_model_dir': "test_results/models/"
+        'save_result_dir': "./test_results/preds/",
+        'save_model_dir': "./test_results/models/"
         },
     ),
 

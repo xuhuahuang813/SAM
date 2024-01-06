@@ -2,3 +2,6 @@ sam_multi/__pycache__
 sam_multi/datasets
 sam_multi/generated_database
 sam_multi/factorized_sampler_lib
+sam_multi/cache
+sam_multi/test_results/models
+sam_multi/test_results/preds
