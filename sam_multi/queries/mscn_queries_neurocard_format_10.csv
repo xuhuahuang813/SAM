@@ -1,0 +1,10 @@
+title,movie_info_idx#title.id=movie_info_idx.movie_id#title.kind_id,=,7,movie_info_idx.info_type_id,>,99#283812
+title##title.production_year,>,2004#1107925
+movie_info##movie_info.info_type_id,<,4#3624977
+title,movie_companies#title.id=movie_companies.movie_id#movie_companies.company_id,<,27#134807
+movie_keyword##movie_keyword.keyword_id,<,55#54826
+title,movie_companies,movie_info#title.id=movie_companies.movie_id,title.id=movie_info.movie_id#title.production_year,>,1977,movie_companies.company_id,>,71403,movie_info.info_type_id,<,4#1172762
+movie_keyword##movie_keyword.keyword_id,<,35049#4007119
+title,movie_companies#title.id=movie_companies.movie_id##2609129
+movie_info_idx##movie_info_idx.info_type_id,>,99#920110
+title,movie_info,movie_info_idx#title.id=movie_info.movie_id,title.id=movie_info_idx.movie_id#movie_info.info_type_id,>,16,movie_info_idx.info_type_id,=,100#1603946

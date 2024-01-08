@@ -390,7 +390,7 @@ EXPERIMENT_CONFIGS = {
         'num_eval_queries_per_iteration': 1000,
         # 10M tuples total.
         'max_steps': tune.grid_search([5000]),
-        'epochs': 5,
+        'epochs': 50,
         # Evaluate after every 1M tuples trained.
         'epochs_per_iteration': 1,
         'loader_workers': 4,
